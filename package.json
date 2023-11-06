@@ -1,0 +1,16 @@
+{
+  "name": "redis-search-values-demo",
+  "version": "1.0.0",
+  "description": "Demonstration how to search for Redis values server-side with a special Lua-script.",
+  "keywords": ["redis", "search", "values", "demo", "example", "maintenance", "sessions"],
+  "author": "https://github.com/a-bobkov",
+  "license": "Unlicense",
+  "type": "module",
+  "main": "solution/searchBrokenSessions.js",
+  "engines": {
+    "node": ">=14"
+  },
+  "dependencies": {
+    "redis": "4.6.10"
+  }
+}
